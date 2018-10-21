@@ -1,0 +1,53 @@
+@@ -0,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Aerie</title>
+  <link rel="stylesheet" type="text/css" href="aerie-homepage.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive|Lalezar|Oswald|Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="topnav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>FAQ</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div id="header">
+
+    <div id="box1">
+      <span><h1>Find a nest!</h1></span>
+      <span><h2>search</h2></span>
+      <span><input type="" name=""></span>
+      <!-- 				<span><h2>Password:</h2></span>
+				<span><input type="" name=""></span>				 -->
+      <button type="button" onclick="loadDoc1()">Go!</button>
+      <script type="text/javascript">
+        function loadDoc1() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              //document.getElementById("demo").innerHTML = this.responseText;
+              window.location.href = "http://127.0.0.1:1134/Aerie/myNest";
+            }
+          };
+          xhttp.open("GET", "http://127.0.0.1:1134/Aerie/myNest", true);
+          xhttp.send();
+        } <
+        /div> <
+        /div>
+        <
+        footer >
+          <
+          /footer> <
+          /body>
+          <
+          /html>
