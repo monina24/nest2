@@ -29,8 +29,8 @@ def welcome(request):
 	return render(request, "welcome.html")
 
 @require_http_methods(["GET"])
-def findNest(request):
-	return render(request, "findNest.html")
+def findNests(request):
+	return render(request, "findNests.html")
 
 @require_http_methods(["GET"])
 def createNest(request):
@@ -89,7 +89,7 @@ def myNestAPI(request):
 
 @csrf_exempt
 @require_http_methods(["POST"])
-def findNestAPI(request):
+def findNestsAPI(request):
 	# load all available nests
 	allNests = Nest.objects.all()
 	render(request, "findNests.html", allNests)
