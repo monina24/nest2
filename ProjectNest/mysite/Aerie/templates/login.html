@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Log In</title>
+        <link rel="stylesheet" href="{% static 'nest.css' %}">
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Cutive|Lalezar|Oswald|Roboto" rel="stylesheet">
+    </head>
+  
+    <body>
+        <form action="api/createAccount" method="POST">
+            Account name:<br>
+            <input type="text" name="account_name"><br>
+            Password: <br>
+            <input type="text" name="password"><br
+            >
+            <input type="submit" value="Submit">
+        </form>
+      <h4 id ="demo">?</h4>
+
+    </body>
+</html>
