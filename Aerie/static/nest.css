@@ -1,0 +1,89 @@
+body {
+    background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+
+
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: lightblue; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.nest {
+	margin-left: 200px;
+	padding: 15px 30px 15px 30px;
+
+}
+
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 40pt;
+	margin: 0;
+
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+#nest-pic-container {
+	padding-left:60px;
+	padding-right: 25px;
+
+}
+
+#nest-pic {
+	height: 300px;
+}
+
+#top-content {
+	display:flex;
+	justify-content: space-between;
+}
+
+.innergroup {
+	display:flex;
+	flex-direction: column;
+}
+
+#description {
+	margin: 0;
+}
+
+#team-members {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#team-members li {
+	display: inline;
+	background-color: lightblue;
+	margin-right: 15px;
+	padding: 10px;
+}
+
+#current-tasks {
+	list-style-type: none;   
+	margin: 0;
+    padding: 0;'
+
+}
+
+#current-tasks li {
+	background-color: lightgray;
+	margin: 10px;
+    padding: 10px;
+}
+
