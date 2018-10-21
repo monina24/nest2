@@ -1,0 +1,25 @@
+#logo-img {
+	width: 600px;
+	text-align: center;
+}
+
+.centered {
+	position: relative;
+	text-align: center;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#topnav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: lightyellow;
+}
+
+#header {
+	width: 100%;
+	height: 500px;
+	background-color: lightblue;
+}
